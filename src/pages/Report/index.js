@@ -20,7 +20,7 @@ const Report = () => {
       <EntryList />
 
       <View>
-        <Button title="Saslvar" />
+        <Button title="Salvar" />
         <Button title="Fechar" />
       </View>
     </View>
