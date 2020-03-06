@@ -1,11 +1,11 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-const Balancelabel = () => {
+const Balancelabel = ({currentBalance}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.label}>Saldo Atual</Text>
-      <Text style={styles.value}>$2.064,35</Text>
+      <Text style={styles.value}>{currentBalance}</Text>
     </View>
   );
 };
